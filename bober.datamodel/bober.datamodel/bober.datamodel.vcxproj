@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="bober.datamodel.cpp" />
     <ClCompile Include="DataModel.cpp" />
+    <ClCompile Include="IDataModel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataModel.h" />
+    <ClInclude Include="IDataModel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
