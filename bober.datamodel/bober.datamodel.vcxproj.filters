@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bober.datamodel.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="DataModel.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
