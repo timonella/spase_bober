@@ -1,4 +1,4 @@
 #include "SaveLoadEngine.h"
 
-void SaveLoadEngine :: LoadIn() {}
-void SaveLoadEngine :: LoadFrom() {}
+void SaveLoadEngine :: Save() {}
+void SaveLoadEngine :: Load() {}

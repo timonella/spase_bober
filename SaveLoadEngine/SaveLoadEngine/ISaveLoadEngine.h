@@ -1,6 +1,6 @@
 #pragma once
 class ISaveLoadEngine {
 public:
-	virtual void LoadIn() {};
-	virtual void LoadFrom() {};
+	virtual void Save() {};
+	virtual void Load() {};
 };

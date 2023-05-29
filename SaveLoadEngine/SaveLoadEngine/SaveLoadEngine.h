@@ -3,6 +3,6 @@
 
 class SaveLoadEngine : ISaveLoadEngine{
 public:
-	void LoadIn();
-	void LoadFrom();
+	void Save();
+	void Load();
 };
