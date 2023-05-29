@@ -2,6 +2,7 @@
 #include "IGameEngine.h"
 class GameEngine :IGameEngine {
 public:
-	void InputInfo();
-	void CoutInfo();
+	//rename
+	//void InputInfo();
+	//void CoutInfo();
 };

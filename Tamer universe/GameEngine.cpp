@@ -1,3 +1,7 @@
 #include "GameEngine.h"
-void GameEngine::CoutInfo() {}
-void GameEngine::InputInfo() {}
+
+ 
+
+//rename 
+//void GameEngine::CoutInfo() {}
+//void GameEngine::InputInfo() {}
