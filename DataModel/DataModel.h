@@ -2,8 +2,10 @@
 #include "IDataModel.h"
 class DataModel :IDataModel {
 public:
-
-	void SavingCommandExecution() {};
+	void CreatShip() {};
+	void FightShip() {};
+	void Wincheck() {};
+	void SaveShip() {};
 	void OrganizationMove() {};
 };
 

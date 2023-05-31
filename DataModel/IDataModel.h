@@ -1,7 +1,10 @@
 #pragma once
 class IDataModel {
 public:
-	virtual void SavingCommandExecution() {};//сохранение и выполнение команд
+	virtual void SaveShip() {};//сохранение кораблей
 	virtual void OrganizationMove() {};//организация хода
+	virtual void CreatShip() {};//создание кораблей
+	virtual void FightShip() {};//бой кораблей
+	virtual void Wincheck() {};//проверка на победу в бою кораблей
 };
 
