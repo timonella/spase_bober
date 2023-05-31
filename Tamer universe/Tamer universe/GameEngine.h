@@ -2,7 +2,8 @@
 #include "IGameEngine.h"
 class GameEngine :IGameEngine {
 public:
-	//rename
-	//void InputInfo();
-	//void CoutInfo();
+	void get_comands() ;
+	void show_save_load_options() ;
+	void battle_and_capture() ;
+	void show_empire_info() ;
 };
