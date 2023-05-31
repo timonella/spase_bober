@@ -127,25 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="comand.cpp" />
     <ClCompile Include="DataModel.cpp" />
-    <ClCompile Include="DMG.cpp" />
     <ClCompile Include="GameEngine.cpp" />
-    <ClCompile Include="MG.cpp" />
     <ClCompile Include="mistake.cpp" />
     <ClCompile Include="SaveLoadEngine.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="comand.h" />
     <ClInclude Include="DataModel.h" />
-    <ClInclude Include="DMG.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="IDataModel.h" />
     <ClInclude Include="IGameEngine.h" />
     <ClInclude Include="ISaveLoadEngine.h" />
-    <ClInclude Include="MG.h" />
-    <ClInclude Include="mistake.h" />
     <ClInclude Include="SaveLoadEngine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
