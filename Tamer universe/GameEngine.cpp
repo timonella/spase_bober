@@ -2,10 +2,10 @@
 
  
 //запрос команд
-void GameEngine::get_comands() {}
+void GameEngine::GetCommands() {}
 //отображение меню сохранения/загрузки
-void GameEngine::show_save_load_options() {}
+void GameEngine::ShowSaveLoadMenu() {}
 //бой кораблей и захват планет
-void GameEngine::battle_and_capture() {}
+void GameEngine::BattleAndCapture() {}
 //отображение инофмации о имперерии
-void GameEngine::show_empire_info() {}
+void GameEngine::ShowEmpireInfo() {}
