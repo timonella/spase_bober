@@ -1,6 +1,6 @@
 #pragma once
 class ISaveLoadEngine {
 public:
-	virtual void Save() {};
-	virtual void Load() {};
+	virtual void Save() {}; //функция перезаписывает данные (состояние каждого корабля и плнеты, полученные от классов GameEngine и DataModel) в приложеном текстовом файле
+	virtual void Load() {}; //функция выгружает данные (состояние каждого корабля и плнеты) в приложеном текстовом файле
 };
