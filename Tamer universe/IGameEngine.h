@@ -2,7 +2,10 @@
 class IGameEngine {
 public:
 
-	//rename
-	/*virtual void InputInfo() {};
-	virtual void CoutInfoLoad() {};*/
+	
+	virtual void get_comands() {};
+	virtual void show_save_load_options() {}; 
+	virtual void battle_and_capture() {}; 
+	virtual void show_empire_info() {};
+
 };
