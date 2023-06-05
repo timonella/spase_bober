@@ -130,6 +130,7 @@
     <ClCompile Include="ComandEngine.cpp" />
     <ClCompile Include="DataModel.cpp" />
     <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="ModelGenerator.cpp" />
     <ClCompile Include="SaveLoadEngine.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
@@ -140,7 +141,9 @@
     <ClInclude Include="IComandEngine.h" />
     <ClInclude Include="IDataModel.h" />
     <ClInclude Include="IGameEngine.h" />
+    <ClInclude Include="IModelGenerator.h" />
     <ClInclude Include="ISaveLoadEngine.h" />
+    <ClInclude Include="ModelGenerator.h" />
     <ClInclude Include="SaveLoadEngine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
