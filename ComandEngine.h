@@ -3,7 +3,13 @@
 
 class ComandEngine : public IComandEngine{
 public:
-	void NameFunction();
+
+	void FinishTurn();
+	void ShowUniverseStatus();
+	void SendFleet(int targetPlanetId);
+	void BuildShip(int attack, int shield);
+
+	void ComandEng();
 
 };
 
