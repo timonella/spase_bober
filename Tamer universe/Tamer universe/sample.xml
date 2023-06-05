@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<TamerUniverse FormatVersion="1">
+
+    <Planets>
+
+		<Specifications Name="Planet1" Type="Neutral">Name="Planet1" Type="Neutral"</Specifications>
+		<Specifications Name="Planet2" Type="Neutral"></Specifications>
+		<Specifications Name="Planet3" Type="Neutral"></Specifications>
+
+    </Planets>
+
+	<Ships>
+
+		<Specifications Name="Ship1" Type="Neutral"></Specifications>
+
+	</Ships>
+
+</TamerUniverse>
