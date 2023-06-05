@@ -1,6 +1,6 @@
 #pragma once
 
-class IModelGenerator{
+class IModelGenersator{
 public:
 	virtual void loadmap() {};
 	virtual void generateplanet() {};
