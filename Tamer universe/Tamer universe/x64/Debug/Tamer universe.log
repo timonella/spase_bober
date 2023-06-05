@@ -1,0 +1,8 @@
+﻿  ComandEngine.cpp
+  DataModel.cpp
+  GameEngine.cpp
+  ModelGenerator.cpp
+C:\Users\student\Desktop\Групповой проект\spase_bober\Tamer universe\Tamer universe\ModelGenerator.cpp(1,10): fatal error C1083: Не удается открыть файл включение: ModelGenerator.h: No such file or directory,
+  SaveLoadEngine.cpp
+  Source.cpp
+  Создание кода...
