@@ -2,7 +2,10 @@
 
 class IModelGenerator{
 public:
-	virtual void LoadMap() {};
+
+	virtual void GenerateMap() {};
+private:
+
 	virtual void GeneratePlanet() {};
 	virtual void PlanetsForPlayers() {};
 	virtual void ToDatamodel() {};

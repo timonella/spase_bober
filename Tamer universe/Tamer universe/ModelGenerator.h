@@ -2,7 +2,10 @@
 #include "IModelGenerator.h"
 class ModelGenerator:IModelGenerator {
 public:
-	void LoadMap();
+
+	void GenerateMap();
+private:
+
 	void GeneratePlanet();
 	void PlanetsForPlayers();
 	void ToDatamodel();
