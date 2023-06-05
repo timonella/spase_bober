@@ -128,17 +128,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DataModel.cpp" />
+    <ClCompile Include="Fleet.cpp" />
     <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="IDataModel.cpp" />
+    <ClCompile Include="Planet.cpp" />
+    <ClCompile Include="QwnedObject.cpp" />
     <ClCompile Include="SaveLoadEngine.cpp" />
+    <ClCompile Include="ship.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataModel.h" />
+    <ClInclude Include="Fleet.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="IDataModel.h" />
     <ClInclude Include="IGameEngine.h" />
     <ClInclude Include="ISaveLoadEngine.h" />
+    <ClInclude Include="Planet.h" />
+    <ClInclude Include="QwnedObject.h" />
     <ClInclude Include="SaveLoadEngine.h" />
+    <ClInclude Include="ship.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
