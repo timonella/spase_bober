@@ -66,4 +66,7 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="sample.xml" />
+  </ItemGroup>
 </Project>

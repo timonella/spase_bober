@@ -6,7 +6,12 @@ using namespace std;
 using namespace pugi;
 
 void SaveLoadEngine::Save() {
-	
+    xml_document doc;
+    xml_node root = doc.document_element();
+
+    xml_node nodeChild = root.append_child("MyChild");
+    nodeChild.append_attribute("hint") = "inserted as last child";
+    nodeChild.append_attribute("intVal") = "in_intVal";
 }
 void SaveLoadEngine::Load() {
     xml_document doc;
