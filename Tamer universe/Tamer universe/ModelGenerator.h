@@ -1,6 +1,6 @@
 #pragma once
 #include "IModelGenerator.h"
-class MapGenerator:IModelGenerator {
+class ModelGenerator:IModelGenerator {
 public:
 	void loadmap();
 	void generateplanet();
