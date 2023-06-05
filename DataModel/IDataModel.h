@@ -7,4 +7,3 @@ public:
 	virtual void FightShip() {};//бой кораблей
 	virtual void Wincheck() {};//проверка на победу в бою кораблей
 };
-
