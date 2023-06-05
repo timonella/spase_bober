@@ -16,7 +16,7 @@ void SaveLoadEngine::Save() {
 void SaveLoadEngine::Load() {
     xml_document doc;
 
-    /*if (!doc.load_file("sample.xml")) return -1;*/
+    if (!doc.load_file("sample.xml")) return ;
     xml_node tools = doc.child("TamerUniverse").child("Planets");
 
     for (xml_node_iterator it = tools.begin(); it != tools.end(); ++it) {
