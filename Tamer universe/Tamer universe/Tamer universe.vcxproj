@@ -127,15 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DataModel.cpp" />
+    <ClCompile Include="ComandEngine.cpp" />
+    <ClCompile Include="DataModel.h" />
     <ClCompile Include="GameEngine.cpp" />
-    <ClCompile Include="IDataModel.cpp" />
+    <ClCompile Include="DataModel.cpp" />
     <ClCompile Include="SaveLoadEngine.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DataModel.h" />
+    <ClInclude Include="ComandEngine.h" />
     <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="IComandEngine.h" />
     <ClInclude Include="IDataModel.h" />
     <ClInclude Include="IGameEngine.h" />
     <ClInclude Include="ISaveLoadEngine.h" />

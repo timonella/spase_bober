@@ -1,11 +1,9 @@
 #include "DataModel.h"
-#include<random>
-#include <time.h>
-#include <iostream>
-using namespace std;
-void Planet() {
 
-}
-void Fleet() {
+void DataModel::SendShip(int planetIndex){}
 
-}
+void DataModel::BuildShip(int shield, int attack){}
+
+void DataModel::StartTurn(){}
+
+void DataModel::EndTruen(){}
