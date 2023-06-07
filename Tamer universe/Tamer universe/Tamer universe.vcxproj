@@ -130,7 +130,7 @@
     <ClCompile Include="ComandEngine.cpp" />
     <ClCompile Include="DataModel.cpp" />
     <ClCompile Include="GameEngine.cpp" />
-    <ClCompile Include="pugixml.cpp" />
+    <ClCompile Include="ModelGenerator.cpp" />
     <ClCompile Include="SaveLoadEngine.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
@@ -141,13 +141,10 @@
     <ClInclude Include="IComandEngine.h" />
     <ClInclude Include="IDataModel.h" />
     <ClInclude Include="IGameEngine.h" />
+    <ClInclude Include="IModelGenerator.h" />
     <ClInclude Include="ISaveLoadEngine.h" />
-    <ClInclude Include="pugiconfig.hpp" />
-    <ClInclude Include="pugixml.hpp" />
+    <ClInclude Include="ModelGenerator.h" />
     <ClInclude Include="SaveLoadEngine.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Xml Include="sample.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

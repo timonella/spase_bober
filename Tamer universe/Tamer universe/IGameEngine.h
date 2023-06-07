@@ -1,14 +1,17 @@
 #pragma once
+
 class IGameEngine {
 public:
 
 	//запрос команд
-	virtual void get_comands() {};
-	//отображение меню сохранения/загрузки
-	virtual void show_save_load_options() {};
+	virtual void GetComands() {};
+	//отображение меню загрузки
+	virtual void ShowLoadOptions() {};
+	//отображение меню сохранения/зашрузки
+	virtual void ShowSaveLoadOptions() {};
 	//бой кораблей и захват планет
-	virtual void battle_and_capture() {};
+	virtual void BattleAndCapture() {};
 	//показ информации о империи
-	virtual void show_empire_info() {};
+	virtual void ShowEmpireInfo() {};
 
 };
