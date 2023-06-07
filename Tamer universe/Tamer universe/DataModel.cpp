@@ -9,4 +9,6 @@ void DataModel::StartTurn(){}
 
 void DataModel::EndTurn(){}
 
+void DataModel::PlanetIndex(int planetIndex) {};
+
 
