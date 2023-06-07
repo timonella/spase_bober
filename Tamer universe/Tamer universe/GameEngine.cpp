@@ -5,7 +5,7 @@ using namespace std;
 
 //запрос команд
 void GameEngine::GetComands() {}
-//отображение меню загрузки
+//отображение меню загрузки ГОТОВО
 void GameEngine::ShowLoadOptions() {
 	cout << "                     `. ___" <<  endl;
 	cout << "                    __,' __`.                _..----....____" << endl;
@@ -33,13 +33,16 @@ void GameEngine::ShowLoadOptions() {
 	cout << "|    1-Load    |" << endl;
 	cout << "+--------------+"<<endl;
 
-}
-//отображение меню сохранения/загрузки
+}//ГОТОВО
+//отображение меню сохранения/загрузки ГОТОВО
 void GameEngine::ShowSaveLoadOptions() {
+	cout << endl;
 	cout << "+---------------+"<<endl;
 	cout << "|      Menu     |"<<endl;
 	cout << "| 1-Load 2-Save |"<<endl;
 	cout << "+---------------+"<<endl;
+	cout << endl;
+
 }
 //бой кораблей и захват планет
 void GameEngine::BattleAndCapture(){}
