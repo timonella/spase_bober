@@ -18,7 +18,7 @@
     <ClCompile Include="Source.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="DataModel.cpp">
+    <ClCompile Include="DataModel.h">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="GameEngine.cpp">
@@ -27,21 +27,15 @@
     <ClCompile Include="SaveLoadEngine.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ComandEngine.cpp">
+    <ClCompile Include="DataModel.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ModelGenerator.cpp">
+    <ClCompile Include="ComandEngine.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DataModel.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="GameEngine.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="IDataModel.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="IGameEngine.h">
@@ -53,16 +47,13 @@
     <ClInclude Include="SaveLoadEngine.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="ComandEngine.h">
+    <ClInclude Include="IDataModel.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="IComandEngine.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="IModelGenerator.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="ModelGenerator.h">
+    <ClInclude Include="ComandEngine.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
