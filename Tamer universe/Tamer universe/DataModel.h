@@ -5,8 +5,8 @@
 using namespace std;
 class DataModel {
 	void SendShip(int planetIndex);
-	void BuildShip(int shield, int attack);
+	void BuildShip(int shield, int attack, int planetIndex);
 	void StartTurn();
 	void EndTurn();
-	void PlanetIndex() {};
+	
 };
