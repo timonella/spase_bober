@@ -128,22 +128,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ComandEngine.cpp" />
-    <ClCompile Include="DataModel.cpp" />
+    <ClCompile Include="DataModel.h" />
     <ClCompile Include="GameEngine.cpp" />
-    <ClCompile Include="ModelGenerator.cpp" />
+    <ClCompile Include="DataModel.cpp" />
     <ClCompile Include="SaveLoadEngine.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ComandEngine.h" />
-    <ClInclude Include="DataModel.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="IComandEngine.h" />
     <ClInclude Include="IDataModel.h" />
     <ClInclude Include="IGameEngine.h" />
-    <ClInclude Include="IModelGenerator.h" />
     <ClInclude Include="ISaveLoadEngine.h" />
-    <ClInclude Include="ModelGenerator.h" />
     <ClInclude Include="SaveLoadEngine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
