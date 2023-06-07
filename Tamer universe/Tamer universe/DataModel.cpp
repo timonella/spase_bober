@@ -7,4 +7,6 @@ void DataModel::BuildShip(int shield, int attack){}
 
 void DataModel::StartTurn(){}
 
-void DataModel::EndTruen(){}
+void DataModel::EndTurn(){}
+
+
