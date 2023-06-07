@@ -2,7 +2,7 @@
 class IDataModel
 {
 public:
-	virtual void SendShip(int planetIndex){};
+	virtual void SendFleet(int planetIndex){};
 	virtual void BuildShip(int shield, int attack, int planetIndex){};
 	virtual void StartTurn(){};
 	virtual void EndTurn(){};
