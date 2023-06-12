@@ -2,7 +2,6 @@
 
 class IGameEngine {
 public:
-
 	//запрос команд
 	virtual void GetComands() {};
 	//отображение меню загрузки
@@ -13,5 +12,4 @@ public:
 	virtual void BattleAndCapture() {};
 	//показ информации о империи
 	virtual void ShowEmpireInfo() {};
-
 };

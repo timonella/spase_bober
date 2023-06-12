@@ -1,4 +1,5 @@
 #include "ModelGenerator.h"
+
 void ModelGenerator::GenerateMap() {}
 void ModelGenerator::GeneratePlanet() {}
 void ModelGenerator::PlanetsForPlayers() {}

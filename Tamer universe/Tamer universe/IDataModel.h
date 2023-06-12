@@ -6,5 +6,4 @@ public:
 	virtual void BuildShip(int shield, int attack, int planetIndex){};
 	virtual void StartTurn(){};
 	virtual void EndTurn(){};
-	
 };

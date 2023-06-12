@@ -1,7 +1,5 @@
 #include "GameEngine.h"
 
- 
-
 //запрос команд
 void GameEngine::GetComands() {}
 //отображение меню загрузки
