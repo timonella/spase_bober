@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="ComandEngine.cpp" />
     <ClCompile Include="DataModel.h" />
+    <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="DataModel.cpp" />
     <ClCompile Include="ModelGenerator.cpp" />
@@ -137,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ComandEngine.h" />
+    <ClInclude Include="FileManager.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="IComandEngine.h" />
     <ClInclude Include="IDataModel.h" />

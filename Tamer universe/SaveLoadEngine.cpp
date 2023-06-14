@@ -1,6 +1,8 @@
+#pragma warning(disable : 4996)
 #include <iostream>
 #include <fstream>
 #include "SaveLoadEngine.h"
+#include "FileManager.h"
 using namespace std;
 string filepath = "Universe.xml";
 
@@ -12,5 +14,21 @@ void SaveLoadEngine::CreateXML() {
 		file.close();
 	}
 }
-	void SaveLoadEngine::Save() {}
-	void SaveLoadEngine::Load() {}
+void SaveLoadEngine::Save() {
+	//FileManager File;
+	//TagWriter Tager;
+	//const char* Data = Tager.WriteTag("Universe");
+	//File.OpenFile();
+	//File.WriteFile(Data);
+	//File.CloseFile();
+}
+void SaveLoadEngine::Load() {
+	FileManager File;
+	File.OpenFile();
+	File.ReadFile();
+	File.CloseFile();
+}
+
+/*void SaveLoadEngine::Save() {}
+
+void SaveLoadEngine::Load() {}*/
