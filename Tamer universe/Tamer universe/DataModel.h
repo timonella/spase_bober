@@ -8,5 +8,4 @@ class DataModel {
 	void BuildShip(int shield, int attack, int planetIndex);
 	void StartTurn();
 	void EndTurn();
-	
 };
