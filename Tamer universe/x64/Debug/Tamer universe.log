@@ -1,10 +1,1 @@
-﻿  ComandEngine.cpp
-  DataModel.h
-  GameEngine.cpp
-  DataModel.cpp
-  ModelGenerator.cpp
-  SaveLoadEngine.cpp
-  Source.cpp
-  Создание кода...
-x64\Debug\DataModel.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
-  Tamer universe.vcxproj -> C:\Users\student.TOP\Desktop\Групповой проект\spase_bober\Tamer universe\x64\Debug\Tamer universe.exe
+﻿  Tamer universe.vcxproj -> C:\Users\student.TOP\Desktop\Групповой проект\spase_bober\x64\Debug\Tamer universe.exe
