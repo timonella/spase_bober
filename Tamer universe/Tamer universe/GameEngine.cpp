@@ -1,4 +1,10 @@
 #include "GameEngine.h"
+#include "Variables.h"
+#include "ModelGenerator.h"
+#include "SaveLoadEngine.h"
+
+
+
 #include <iostream>
 using namespace std;
  
@@ -31,7 +37,24 @@ void GameEngine::ShowLoadOptions() {
 	cout << "+--------------+" << endl;
 	cout << "|     Menu     |" << endl;
 	cout << "|    1-Load    |" << endl;
+	cout << "|  2-New Game  |" << endl;
 	cout << "+--------------+"<<endl;
+
+
+	cout << "Напищите цыфру в соответствии с нужным вам пунктом: ";
+	cin >> menuModeSelection;
+
+
+	if (menuModeSelection = loadPoint) {
+		//Load();
+	}
+	if (menuModeSelection = newgamePoint) {
+		//GenerateMap()
+	}
+
+
+
+
 
 }//ГОТОВО
 //отображение меню сохранения/загрузки ГОТОВО
@@ -42,6 +65,18 @@ void GameEngine::ShowSaveLoadOptions() {
 	cout << "| 1-Load 2-Save |"<<endl;
 	cout << "+---------------+"<<endl;
 	cout << endl;
+
+
+	cout << "Напищите цыфру в соответствии с нужным вам пунктом: ";
+	cin >> menuModeSelection;
+
+
+	if (menuModeSelection = loadPoint) {
+		//Load();
+	}
+	if (menuModeSelection = savePoint) {
+		//Save()
+	}
 
 }
 //бой кораблей и захват планет
