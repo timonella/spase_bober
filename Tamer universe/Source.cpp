@@ -17,5 +17,7 @@ int main() {
 		else if (arr[i] == Bobers::pear);
 	}*/
 
+
+
 	return 0;
 }
