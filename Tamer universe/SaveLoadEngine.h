@@ -3,7 +3,6 @@
 
 class SaveLoadEngine : ISaveLoadEngine {
 public:
-	void CreateXML();
 	void Save();
 	void Load();
 };

@@ -129,16 +129,15 @@
   <ItemGroup>
     <ClCompile Include="ComandEngine.cpp" />
     <ClCompile Include="DataModel.h" />
-    <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="DataModel.cpp" />
     <ClCompile Include="ModelGenerator.cpp" />
     <ClCompile Include="SaveLoadEngine.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="XMLBuilder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ComandEngine.h" />
-    <ClInclude Include="FileManager.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="IComandEngine.h" />
     <ClInclude Include="IDataModel.h" />
@@ -147,6 +146,7 @@
     <ClInclude Include="ISaveLoadEngine.h" />
     <ClInclude Include="ModelGenerator.h" />
     <ClInclude Include="SaveLoadEngine.h" />
+    <ClInclude Include="XMLBuilder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

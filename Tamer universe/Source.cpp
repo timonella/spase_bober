@@ -3,8 +3,7 @@
 using namespace std;
 
 int main() {
-	srand(time(NULL));
-	enum Bobers { apples, pear, balls };
+	/*enum Bobers { apples, pear, balls };
 
 	Bobers arr[20];
 	int aple = 0;
@@ -16,7 +15,7 @@ int main() {
 			aple++;
 		}
 		else if (arr[i] == Bobers::pear);
-	}
+	}*/
 
 	return 0;
 }
