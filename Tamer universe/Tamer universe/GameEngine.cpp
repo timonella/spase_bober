@@ -37,6 +37,9 @@ void GameEngine::ShowLoadOptions() {
 	cout << "+--------------+" << endl;
 
 
+	int menuModeSelection;
+	int loadPoint = 1;
+	int newgamePoint = 2;
 	cout << "Напищите цыфру в соответствии с нужным вам пунктом: ";
 	cin >> menuModeSelection;
 
@@ -57,7 +60,9 @@ void GameEngine::ShowSaveLoadOptions() {
 	cout << "+---------------+" << endl;
 	cout << endl;
 
-
+	int menuModeSelection;
+	int loadPoint = 1;
+	int savePoint = 2;
 	cout << "Напищите цыфру в соответствии с нужным вам пунктом: ";
 	cin >> menuModeSelection;
 
