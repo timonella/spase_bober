@@ -1,5 +1,4 @@
 #include "GameEngine.h"
-#include "Variables.h"
 #include "ModelGenerator.h"
 #include "SaveLoadEngine.h"
 #include <iostream>
@@ -50,6 +49,14 @@ void GameEngine::ShowLoadOptions() {
 	if (menuModeSelection = newgamePoint) {
 		//GenerateMap()
 	}
+	if (menuModeSelection >= 3){
+		cout << "Такого пункта нет";
+
+	}
+	if (menuModeSelection <= 0) {
+		cout << "Такого пункта нет";
+
+	}
 }
 //отображение меню сохранения/загрузки
 void GameEngine::ShowSaveLoadOptions() {
@@ -72,6 +79,14 @@ void GameEngine::ShowSaveLoadOptions() {
 	}
 	if (menuModeSelection = savePoint) {
 		//Save()
+	}
+	if (menuModeSelection >= 3) {
+		cout << "Такого пункта нет";
+
+	}
+	if (menuModeSelection <= 0) {
+		cout << "Такого пункта нет";
+
 	}
 
 }
