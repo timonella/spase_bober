@@ -1,10 +1,10 @@
 #include "DataModel.h"
-<<<<<<< HEAD
+//<<<<<<< HEAD
 #include "IDataModel.h"
 #include <iostream>
-=======
-
->>>>>>> main
+//=======
+//
+//>>>>>>> main
 using namespace std;
 void DataModel::SendFleet(int planetIndex){}
 
