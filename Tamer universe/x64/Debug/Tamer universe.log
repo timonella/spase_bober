@@ -1,18 +1,1 @@
-﻿  ComandEngine.cpp
-  DataModel.h
-  GameEngine.cpp
-  DataModel.cpp
-  ModelGenerator.cpp
-  SaveLoadEngine.cpp
-  Source.cpp
-  XMLBuilder.cpp
-  Создание кода...
-C:\Users\S\OneDrive\Рабочий стол\Программирование\spase_bober\Tamer universe\XMLBuilder.cpp(13): error C4716: WriteXML::WriteTurn: должна возвращать значение
-C:\Users\S\OneDrive\Рабочий стол\Программирование\spase_bober\Tamer universe\XMLBuilder.cpp(6): error C4716: WriteXML::WriteHeader: должна возвращать значение
-C:\Users\S\OneDrive\Рабочий стол\Программирование\spase_bober\Tamer universe\XMLBuilder.cpp(22): error C4716: WriteXML::WriteFleet: должна возвращать значение
-C:\Users\S\OneDrive\Рабочий стол\Программирование\spase_bober\Tamer universe\XMLBuilder.cpp(10): error C4716: WriteXML::WriteUniverse: должна возвращать значение
-C:\Users\S\OneDrive\Рабочий стол\Программирование\spase_bober\Tamer universe\XMLBuilder.cpp(16): error C4716: WriteXML::WritePlanets: должна возвращать значение
-C:\Users\S\OneDrive\Рабочий стол\Программирование\spase_bober\Tamer universe\XMLBuilder.cpp(19): error C4716: WriteXML::WritePlanet: должна возвращать значение
-C:\Users\S\OneDrive\Рабочий стол\Программирование\spase_bober\Tamer universe\XMLBuilder.cpp(25): error C4716: WriteXML::WriteShip: должна возвращать значение
-C:\Users\S\OneDrive\Рабочий стол\Программирование\spase_bober\Tamer universe\XMLBuilder.cpp(28): error C4716: WriteXML::WriteOwner: должна возвращать значение
-C:\Users\S\OneDrive\Рабочий стол\Программирование\spase_bober\Tamer universe\XMLBuilder.cpp(31): error C4716: WriteXML::WriteID: должна возвращать значение
+﻿  Tamer universe.vcxproj -> C:\Users\student.TOP\Desktop\Групповой проект\spase_bober\x64\Debug\Tamer universe.exe
