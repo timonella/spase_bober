@@ -1,9 +1,9 @@
 #pragma once
-#include "Ship.h"
 #include <iostream>
+#include "Ship.h"
 class Fleet
 {
-	ship* ships;
+	Ship* ships;
 
 };
 

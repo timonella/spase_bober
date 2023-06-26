@@ -133,6 +133,8 @@
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="DataModel.cpp" />
     <ClCompile Include="ModelGenerator.cpp" />
+    <ClCompile Include="OwnedObject.cpp" />
+    <ClCompile Include="Owner.cpp" />
     <ClCompile Include="Planet.cpp" />
     <ClCompile Include="SaveLoadEngine.cpp" />
     <ClCompile Include="Ship.cpp" />
@@ -148,6 +150,8 @@
     <ClInclude Include="IModelGenerator.h" />
     <ClInclude Include="ISaveLoadEngine.h" />
     <ClInclude Include="ModelGenerator.h" />
+    <ClInclude Include="OwnedObject.h" />
+    <ClInclude Include="Owner.h" />
     <ClInclude Include="Planet.h" />
     <ClInclude Include="SaveLoadEngine.h" />
     <ClInclude Include="Ship.h" />
