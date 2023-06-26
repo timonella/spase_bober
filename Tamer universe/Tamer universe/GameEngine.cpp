@@ -1,4 +1,5 @@
 #include "GameEngine.h"
+#include "Variables.h"
 #include "ModelGenerator.h"
 #include "SaveLoadEngine.h"
 #include <iostream>
@@ -36,9 +37,6 @@ void GameEngine::ShowLoadOptions() {
 	cout << "+--------------+" << endl;
 
 
-	int menuModeSelection;
-	int loadPoint = 1;
-	int newgamePoint = 2;
 	cout << "Напищите цыфру в соответствии с нужным вам пунктом: ";
 	cin >> menuModeSelection;
 
@@ -48,14 +46,6 @@ void GameEngine::ShowLoadOptions() {
 	}
 	if (menuModeSelection = newgamePoint) {
 		//GenerateMap()
-	}
-	if (menuModeSelection >= 3){
-		cout << "Такого пункта нет";
-
-	}
-	if (menuModeSelection <= 0) {
-		cout << "Такого пункта нет";
-
 	}
 }
 //отображение меню сохранения/загрузки
@@ -67,9 +57,7 @@ void GameEngine::ShowSaveLoadOptions() {
 	cout << "+---------------+" << endl;
 	cout << endl;
 
-	int menuModeSelection;
-	int loadPoint = 1;
-	int savePoint = 2;
+
 	cout << "Напищите цыфру в соответствии с нужным вам пунктом: ";
 	cin >> menuModeSelection;
 
@@ -80,34 +68,9 @@ void GameEngine::ShowSaveLoadOptions() {
 	if (menuModeSelection = savePoint) {
 		//Save()
 	}
-	if (menuModeSelection >= 3) {
-		cout << "Такого пункта нет";
-
-	}
-	if (menuModeSelection <= 0) {
-		cout << "Такого пункта нет";
-
-	}
 
 }
 //бой кораблей и захват планет
-void GameEngine::BattleAndCapture(){
-	//while (fleet1_size > 0 && fleet2_size > 0) {
-	//	// fleet1 attacks fleet2
-	//	for (int i = 0; i < fleet1_size; i++) {
-	//		if (fleet2_size <= 0) break;
-	//		fleet2[0].health -= fleet1[i].damage;
-	//		if (fleet2[0].health <= 0) {
-	//			// remove destroyed ship from fleet2
-	//			for (int j = 0; j < fleet2_size - 1; j++) {
-	//				fleet2[j] = fleet2[j + 1];
-	//			}
-	//			fleet2_size--;
-	//		}
-	//	}
-	//}
-
-
-}
+void GameEngine::BattleAndCapture(){}
 //отображение инофмации о имперерии
 void GameEngine::ShowEmpireInfo(){}
