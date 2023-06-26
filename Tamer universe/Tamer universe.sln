@@ -5,7 +5,11 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tamer universe", "Tamer universe\Tamer universe.vcxproj", "{26562D76-A3B9-4A35-BF3F-19D152AE48A9}"
 EndProject
+<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "comandEngie Test", "Tamer universe\comandEngie Test\comandEngie Test.vcxproj", "{991A817D-061C-45AA-9B31-17C5AD3324D3}"
+=======
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDataModel", "TestDataModel\TestDataModel.vcxproj", "{304CE728-5673-49C6-AD47-CE76D7067379}"
+>>>>>>> 5d4b022ff581f7f09e10b25fd5e6e359575c30a8
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,7 @@ Global
 		{26562D76-A3B9-4A35-BF3F-19D152AE48A9}.Release|x64.Build.0 = Release|x64
 		{26562D76-A3B9-4A35-BF3F-19D152AE48A9}.Release|x86.ActiveCfg = Release|Win32
 		{26562D76-A3B9-4A35-BF3F-19D152AE48A9}.Release|x86.Build.0 = Release|Win32
+<<<<<<< HEAD
 		{991A817D-061C-45AA-9B31-17C5AD3324D3}.Debug|x64.ActiveCfg = Debug|x64
 		{991A817D-061C-45AA-9B31-17C5AD3324D3}.Debug|x64.Build.0 = Debug|x64
 		{991A817D-061C-45AA-9B31-17C5AD3324D3}.Debug|x86.ActiveCfg = Debug|Win32
@@ -31,6 +36,16 @@ Global
 		{991A817D-061C-45AA-9B31-17C5AD3324D3}.Release|x64.Build.0 = Release|x64
 		{991A817D-061C-45AA-9B31-17C5AD3324D3}.Release|x86.ActiveCfg = Release|Win32
 		{991A817D-061C-45AA-9B31-17C5AD3324D3}.Release|x86.Build.0 = Release|Win32
+=======
+		{304CE728-5673-49C6-AD47-CE76D7067379}.Debug|x64.ActiveCfg = Debug|x64
+		{304CE728-5673-49C6-AD47-CE76D7067379}.Debug|x64.Build.0 = Debug|x64
+		{304CE728-5673-49C6-AD47-CE76D7067379}.Debug|x86.ActiveCfg = Debug|Win32
+		{304CE728-5673-49C6-AD47-CE76D7067379}.Debug|x86.Build.0 = Debug|Win32
+		{304CE728-5673-49C6-AD47-CE76D7067379}.Release|x64.ActiveCfg = Release|x64
+		{304CE728-5673-49C6-AD47-CE76D7067379}.Release|x64.Build.0 = Release|x64
+		{304CE728-5673-49C6-AD47-CE76D7067379}.Release|x86.ActiveCfg = Release|Win32
+		{304CE728-5673-49C6-AD47-CE76D7067379}.Release|x86.Build.0 = Release|Win32
+>>>>>>> 5d4b022ff581f7f09e10b25fd5e6e359575c30a8
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

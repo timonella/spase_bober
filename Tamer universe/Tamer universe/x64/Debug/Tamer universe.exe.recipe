@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\student\Desktop\групповой проект\spase_bober\Tamer universe\x64\Debug\Tamer universe.exe</FullPath>
+=======
+      <FullPath>C:\Users\student\Desktop\dry\spase_bober\Tamer universe\x64\Debug\Tamer universe.exe</FullPath>
+>>>>>>> 5d4b022ff581f7f09e10b25fd5e6e359575c30a8
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

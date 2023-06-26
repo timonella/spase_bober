@@ -10,7 +10,12 @@
       "ProjectGuid": "991a817d-061c-45aa-9b31-17c5ad3324d3",
       "DisplayName": "comandEngie Test",
       "ColorIndex": 1
+    },
+    "304ce728-5673-49c6-ad47-ce76d7067379": {
+      "ProjectGuid": "304ce728-5673-49c6-ad47-ce76d7067379",
+      "DisplayName": "TestDataModel",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

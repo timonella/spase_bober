@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.30.30705:TargetPlatformVersion=10.0.19041.0:
 Debug|x64|C:\Users\student\Desktop\групповой проект\spase_bober\Tamer universe\|
+=======
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.36.32532:TargetPlatformVersion=10.0.22000.0:
+Debug|x64|C:\Users\student\Desktop\dry\spase_bober\Tamer universe\|
+>>>>>>> 5d4b022ff581f7f09e10b25fd5e6e359575c30a8
