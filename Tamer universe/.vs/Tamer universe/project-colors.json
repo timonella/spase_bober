@@ -5,7 +5,12 @@
       "ProjectGuid": "26562d76-a3b9-4a35-bf3f-19d152ae48a9",
       "DisplayName": "Tamer universe",
       "ColorIndex": 0
+    },
+    "991a817d-061c-45aa-9b31-17c5ad3324d3": {
+      "ProjectGuid": "991a817d-061c-45aa-9b31-17c5ad3324d3",
+      "DisplayName": "comandEngie Test",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
