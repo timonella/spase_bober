@@ -1,9 +1,11 @@
 #pragma once
 class Ship
 {
-	int ship = 1;
-	int shield = 1;
-	int attack = 1;
-
+private:
+	int _attack = 0;
+	int _defence = 0;
+public:
+	int _attack();
+	int _defence();
 };
 
