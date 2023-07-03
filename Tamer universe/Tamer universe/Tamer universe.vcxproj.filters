@@ -24,9 +24,6 @@
     <ClCompile Include="SaveLoadEngine.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="DataModel.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="ComandEngine.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -35,6 +32,12 @@
     </ClCompile>
     <ClCompile Include="DataModel.h">
       <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="Fleet.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

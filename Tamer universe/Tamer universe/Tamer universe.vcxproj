@@ -129,10 +129,11 @@
   <ItemGroup>
     <ClCompile Include="ComandEngine.cpp" />
     <ClCompile Include="DataModel.h" />
+    <ClCompile Include="Fleet.cpp" />
     <ClCompile Include="GameEngine.cpp" />
-    <ClCompile Include="DataModel.cpp" />
     <ClCompile Include="ModelGenerator.cpp" />
     <ClCompile Include="SaveLoadEngine.cpp" />
+    <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
