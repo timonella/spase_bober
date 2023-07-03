@@ -1,6 +1,8 @@
 #include "GameEngine.h"
 #include "ModelGenerator.h"
 #include "SaveLoadEngine.h"
+#include "DataModel.h"
+
 #include <iostream>
 using namespace std;
  
@@ -108,6 +110,36 @@ void GameEngine::BattleAndCapture(){
 	//}
 
 
+
+
 }
 //отображение инофмации о имперерии
-void GameEngine::ShowEmpireInfo(){}
+void GameEngine::ShowEmpireInfo(){
+	cout << "|				  info					  |";
+	cout << "+----------------------------------------+"<<endl;
+	cout << "| Колличество планет игрока 1 " << a << "|" << endl;
+	cout << "| Колличество планет игрока 2 " << b << "|" << endl;
+	cout << "+----------------------------------------+"<<endl;
+	cout << endl;
+
+	cout << "+----------------------------------------+" << endl;
+	cout << "| Колличество кораблей игрока 1 " << p << "|" << endl;
+	cout << "| Колличество кораблей игрока 2 " << p << "|" << endl;
+	cout << "+----------------------------------------+" << endl;
+	cout << endl;
+	cout << "+----------------------+";
+	cout << "|	корабли игрока 1	|";
+	for (int i = 0; i < fleet1_size; i++) {
+		cout << "|	" << fleet1[i] << "	|" << endl;;
+	}
+	cout << "+----------------------+";
+
+	cout << endl;
+	cout << "+----------------------+";
+	cout << "|	корабли игрока 2	|";
+	for (int i = 0; i < fleet2_size; i++) {
+		cout << "|	" << fleet2[i] << "	|" << endl;;
+	}
+	cout << "+----------------------+";
+
+}
