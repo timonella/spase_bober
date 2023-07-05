@@ -4,11 +4,12 @@
 class ComandEngine : public IComandEngine {
 public:
 
-	void FinishTurn();
-	void ShowUniverseStatus();
-	void SendFleet(int targetPlanetId);
-	void BuildShip(int attack, int shield);
-	void Start();
+	int WelcomeMessage();
+	int ShowHelp();
+	int FinishTurn();
+	int ShowUniverseStatus();
+	int SendFleet(/*int targetPlanetId*/);
+	int BuildShip(/*int attack, int shield*/);
+	int Start();
 
 };
-
