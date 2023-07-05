@@ -15,3 +15,9 @@ Ship::Ship(int attack, int defense)
     _attack = attack;
     _defense = defense;
 }
+Ship::Ship()
+{
+    _attack = -1;
+    _defense = -1;
+}
+

@@ -1,2 +1,3 @@
-﻿  SaveLoadEngine.cpp
-  Tamer universe.vcxproj -> C:\Users\student\Desktop\Группа\spase_bober\Tamer universe\x64\Debug\Tamer universe.exe
+﻿  GameEngine.cpp
+x64\Debug\DataModel.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+  Tamer universe.vcxproj -> C:\Users\student\Desktop\spacebob\spase_bober\Tamer universe\x64\Debug\Tamer universe.exe

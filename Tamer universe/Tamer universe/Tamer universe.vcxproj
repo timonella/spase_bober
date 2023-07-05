@@ -129,14 +129,17 @@
   <ItemGroup>
     <ClCompile Include="ComandEngine.cpp" />
     <ClCompile Include="DataModel.h" />
+    <ClCompile Include="Fleet.cpp" />
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="DataModel.cpp" />
     <ClCompile Include="ModelGenerator.cpp" />
     <ClCompile Include="SaveLoadEngine.cpp" />
+    <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ComandEngine.h" />
+    <ClInclude Include="Fleet.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="IComandEngine.h" />
     <ClInclude Include="IDataModel.h" />
@@ -145,6 +148,7 @@
     <ClInclude Include="ISaveLoadEngine.h" />
     <ClInclude Include="ModelGenerator.h" />
     <ClInclude Include="SaveLoadEngine.h" />
+    <ClInclude Include="Ship.h" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="Universe.xml" />

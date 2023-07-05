@@ -11,7 +11,8 @@ private:
 	list<Ship> _ships;
 public:
 	void AddShip(Ship ship);
-
+	Ship* GetShips();
+	
 	Fleet();
 };
 

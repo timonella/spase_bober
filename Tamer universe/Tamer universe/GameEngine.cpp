@@ -94,31 +94,19 @@ void GameEngine::ShowSaveLoadOptions() {
 }
 //бой кораблей и захват планет
 void GameEngine::BattleAndCapture(){
-	//while (fleet1_size > 0 && fleet2_size > 0) {
-	//	// fleet1 attacks fleet2
-	//	for (int i = 0; i < fleet1_size; i++) {
-	//		if (fleet2_size <= 0) break;
-	//		fleet2[0].health -= fleet1[i].damage;
-	//		if (fleet2[0].health <= 0) {
-	//			// remove destroyed ship from fleet2
-	//			for (int j = 0; j < fleet2_size - 1; j++) {
-	//				fleet2[j] = fleet2[j + 1];
-	//			}
-	//			fleet2_size--;
-	//		}
-	//	}
-	//}
 
+	
+	
 
 
 
 }
 //отображение инофмации о имперерии
-void GameEngine::ShowEmpireInfo(){
-	cout << "|				  info					  |";
-	cout << "+----------------------------------------+"<<endl;
+void GameEngine::ShowEmpireInfo() {
+	cout << "|				  info					  |" << endl;
+	cout << "+----------------------------------------+" << endl;
 	cout << "| Колличество планет игрока  " /*<< a <<*/ "|" << endl;
-	cout << "+----------------------------------------+"<<endl;
+	cout << "+----------------------------------------+" << endl;
 	cout << endl;
 
 	cout << "+----------------------------------------+" << endl;
@@ -132,4 +120,4 @@ void GameEngine::ShowEmpireInfo(){
 	}
 	cout << "+----------------------+";
 
-	
+}

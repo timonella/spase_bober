@@ -9,5 +9,6 @@ public:
 	int GetDefense();
 
 	Ship(int attack, int defense);
+	Ship();
 };
 
