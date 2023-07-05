@@ -1,2 +1,5 @@
 *.suo
-*/.vs/*
+**/.vs/**
+**/Browse.VC.db
+**\.vs\**
+**\Browse.VC.db
