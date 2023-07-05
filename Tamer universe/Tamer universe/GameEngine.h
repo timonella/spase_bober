@@ -4,6 +4,6 @@ class GameEngine :IGameEngine {
 public:
 	void ShowSaveLoadOptions();
 	void ShowLoadOptions() ;
-	void BattleAndCapture() ;
+	void BattleAndCapture(Fleet attacker,Fleet defender) ;
 	void ShowEmpireInfo() ;
 };

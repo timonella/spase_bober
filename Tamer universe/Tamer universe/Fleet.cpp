@@ -17,3 +17,8 @@ Ship* Fleet::GetShips() {
 	std::copy(_ships.begin(), _ships.end(), result);
 	return result;
 }
+
+int Fleet::GetShipsCount() {
+	return _ships.size();
+
+}

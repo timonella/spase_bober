@@ -12,7 +12,9 @@ private:
 public:
 	void AddShip(Ship ship);
 	Ship* GetShips();
-	
+	int GetShipsCount();
 	Fleet();
+
+
 };
 

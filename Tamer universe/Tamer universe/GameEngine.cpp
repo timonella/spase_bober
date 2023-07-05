@@ -2,6 +2,8 @@
 #include "ModelGenerator.h"
 #include "SaveLoadEngine.h"
 #include "DataModel.h"
+#include "Ship.h"
+#include "Fleet.h"
 
 #include <iostream>
 using namespace std;
@@ -93,9 +95,13 @@ void GameEngine::ShowSaveLoadOptions() {
 
 }
 //бой кораблей и захват планет
-void GameEngine::BattleAndCapture(){
+void GameEngine::BattleAndCapture(Fleet attacker, Fleet defender) {
 
-	
+	for (int counter = 0; counter < attacker.GetShipsCount();counter++) {
+		
+
+
+	}
 	
 
 
